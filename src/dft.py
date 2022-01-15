@@ -17,7 +17,7 @@ end
 
 * xyz   0   1
 """
-
+################
 def run_orca_calculation(orca_dir, smiles):
     if not os.path.isdir(orca_dir):
       os.makedirs(orca_dir)
